@@ -1,0 +1,12 @@
+head,
+body {
+  white-space: nowrap;
+}
+
+.h1 {
+  color: blue;
+  display: flex;
+  font-family: 'Arial';
+  font-style: normal;
+  font-size: 15px;
+}
