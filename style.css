@@ -18,6 +18,7 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 4vw;
     box-shadow: 0.5vw 0.5vw 0.5vw rgb(236, 222, 205);
+    animation: mymove 5s infinite;
 }
 
 nav {
@@ -65,4 +66,9 @@ p {
     width: 30%;
     height: auto;
     box-shadow: 0.5vw 0.5vw 0.5vw rgb(236, 222, 205);
+    animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+    50%{box-shadow: 10px 20px 30px #ccc;}
 }
